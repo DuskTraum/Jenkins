@@ -1,0 +1,335 @@
+<html>
+<head>
+<title>TestNG:  Gmail test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Gmail test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 21 13:57:33 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35201 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.checkSentMails()'><b>checkSentMails</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Selenium test, Hello World!<br/>
+<a href="#Output-679906284" onClick='toggleBox("Output-679906284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-679906284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-679906284">
+ INFO   GmailTest#  93: start 'checkSentMails'<br><br/>
+ INFO    MainPage# 149: start 'checkSentMail'<br><br/>
+ INFO    MainPage# 158: finish 'checkSentMail'<br><br/>
+ INFO   GmailTest#  96: finish 'checkSentMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.checkSentMails()'><b>checkSentMails</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, How about test?, How are you?<br/>
+<a href="#Output-1305739408" onClick='toggleBox("Output-1305739408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1305739408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1305739408">
+ INFO   GmailTest#  93: start 'checkSentMails'<br><br/>
+ INFO    MainPage# 149: start 'checkSentMail'<br><br/>
+ INFO    MainPage# 158: finish 'checkSentMail'<br><br/>
+ INFO   GmailTest#  96: finish 'checkSentMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.checkSentMails()'><b>checkSentMails</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Test me!, I want to test you!<br/>
+<a href="#Output-217486983" onClick='toggleBox("Output-217486983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-217486983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-217486983">
+ INFO   GmailTest#  93: start 'checkSentMails'<br><br/>
+ INFO    MainPage# 149: start 'checkSentMail'<br><br/>
+ INFO    MainPage# 158: finish 'checkSentMail'<br><br/>
+ INFO   GmailTest#  96: finish 'checkSentMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.discardDrafts()'><b>discardDrafts</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br/>
+<a href="#Output-672103944" onClick='toggleBox("Output-672103944", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-672103944" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-672103944">
+ INFO   GmailTest#  77: start 'discardDrafts'<br><br/>
+ INFO    MainPage# 162: start 'discardDrafts'<br><br/>
+ INFO    MainPage# 168: finish 'discardDrafts'<br><br/>
+ INFO   GmailTest#  80: finish 'discardDrafts'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.discardMails()'><b>discardMails</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br/>
+<a href="#Output-1529181998" onClick='toggleBox("Output-1529181998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1529181998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1529181998">
+ INFO   GmailTest# 101: start 'discardMails'<br><br/>
+ INFO    MainPage# 172: start 'discardSentMails'<br><br/>
+ INFO    MainPage# 185: finish 'discardSentMails'<br><br/>
+ INFO   GmailTest# 104: finish 'discardMails'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsCheck()'><b>gmailDraftsCheck</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Selenium test, Hello World!<br/>
+<a href="#Output-1501977579" onClick='toggleBox("Output-1501977579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501977579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501977579">
+ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br><br/>
+ INFO    MainPage# 131: start 'checkDrafts'<br><br/>
+ INFO    MainPage# 141: finish 'checkDrafts'<br><br/>
+ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsCheck()'><b>gmailDraftsCheck</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, How about test?, How are you?<br/>
+<a href="#Output-1870365820" onClick='toggleBox("Output-1870365820", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870365820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870365820">
+ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br><br/>
+ INFO    MainPage# 131: start 'checkDrafts'<br><br/>
+ INFO    MainPage# 141: finish 'checkDrafts'<br><br/>
+ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsCheck()'><b>gmailDraftsCheck</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Test me!, I want to test you!<br/>
+<a href="#Output-2089583980" onClick='toggleBox("Output-2089583980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2089583980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2089583980">
+ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br><br/>
+ INFO    MainPage# 131: start 'checkDrafts'<br><br/>
+ INFO    MainPage# 141: finish 'checkDrafts'<br><br/>
+ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator()'><b>gmailDraftsGenerator</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Selenium test, Hello World!<br/>
+<a href="#Output-324130094" onClick='toggleBox("Output-324130094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-324130094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-324130094">
+ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br><br/>
+ INFO    MainPage#  96: start 'composeMsg'<br><br/>
+ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br><br/>
+ INFO    MainPage# 110: finish 'composeMsg'<br><br/>
+ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator()'><b>gmailDraftsGenerator</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, How about test?, How are you?<br/>
+<a href="#Output-1528357117" onClick='toggleBox("Output-1528357117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1528357117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1528357117">
+ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br><br/>
+ INFO    MainPage#  96: start 'composeMsg'<br><br/>
+ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br><br/>
+ INFO    MainPage# 110: finish 'composeMsg'<br><br/>
+ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator()'><b>gmailDraftsGenerator</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Test me!, I want to test you!<br/>
+<a href="#Output-1289413694" onClick='toggleBox("Output-1289413694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1289413694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1289413694">
+ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br><br/>
+ INFO    MainPage#  96: start 'composeMsg'<br><br/>
+ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br><br/>
+ INFO    MainPage# 110: finish 'composeMsg'<br><br/>
+ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailLogin()'><b>gmailLogin</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br/>
+<a href="#Output-607668601" onClick='toggleBox("Output-607668601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-607668601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-607668601">
+ INFO   GmailTest#  51: start 'gmailLogin'<br><br/>
+ INFO  GooglePage#  23: start 'clickMail'<br><br/>
+ INFO  GooglePage#  25: finish 'clickMail'<br><br/>
+ INFO   LoginPage#  41: start 'setLogin'<br><br/>
+ INFO   LoginPage#  42: Login:yurii.kaprov@gmail.com<br><br/>
+ INFO   LoginPage#  44: finish 'setLogin'<br><br/>
+ INFO   LoginPage#  49: start 'clickNext'<br><br/>
+ INFO   LoginPage#  51: finish 'clickNext'<br><br/>
+ INFO   LoginPage#  56: start 'setPassword'<br><br/>
+ INFO   LoginPage#  61: finish 'setPassword'<br><br/>
+ INFO   LoginPage#  66: start 'signInBtn'<br><br/>
+ INFO   LoginPage#  73: finish 'signInBtn'<br><br/>
+ WARN  ScreenShot#  42: <a href='screenshots/screenshot2240329760345579849.png'>See ScreenShot</a><br><br/>
+ INFO   GmailTest#  56: finish 'gmailLogin'<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs()'><b>gmailsSendMsgs</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Selenium test, Hello World!<br/>
+<a href="#Output-1395092341" onClick='toggleBox("Output-1395092341", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1395092341" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1395092341">
+ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br><br/>
+ INFO    MainPage# 114: start 'composeAndSendMsg'<br><br/>
+ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br><br/>
+ INFO    MainPage# 127: finish 'composeAndSendMsg'<br><br/>
+ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs()'><b>gmailsSendMsgs</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, How about test?, How are you?<br/>
+<a href="#Output-47081532" onClick='toggleBox("Output-47081532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-47081532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-47081532">
+ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br><br/>
+ INFO    MainPage# 114: start 'composeAndSendMsg'<br><br/>
+ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br><br/>
+ INFO    MainPage# 127: finish 'composeAndSendMsg'<br><br/>
+ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs()'><b>gmailsSendMsgs</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br>Parameters: rzn.test@mail.ru, Test me!, I want to test you!<br/>
+<a href="#Output-494602868" onClick='toggleBox("Output-494602868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494602868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494602868">
+ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br><br/>
+ INFO    MainPage# 114: start 'composeAndSendMsg'<br><br/>
+ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br><br/>
+ INFO    MainPage# 127: finish 'composeAndSendMsg'<br><br/>
+ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+<tr>
+<td title='com.epam.yuri_karpov.selenium.GmailTest.logOut()'><b>logOut</b><br>Test class: com.epam.yuri_karpov.selenium.GmailTest<br/>
+<a href="#Output-239335909" onClick='toggleBox("Output-239335909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-239335909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-239335909">
+ INFO   GmailTest# 109: start 'logOut'<br><br/>
+ INFO    MainPage# 189: start 'logOut'<br><br/>
+ INFO    MainPage# 193: finish 'logOut'<br><br/>
+ INFO   GmailTest# 111: finish 'logOut'<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.yuri_karpov.selenium.GmailTest@58714e00</td></tr>
+</table><p>
+</body>
+</html>

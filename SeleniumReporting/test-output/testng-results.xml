@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[ WARN   GmailTest#  41: start 'startBrowser'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ WARN   GmailTest#  42: startBrowser 'delete old screenshots'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ WARN   GmailTest#  46: finish 'startBrowser'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  51: start 'gmailLogin'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO  GooglePage#  23: start 'clickMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO  GooglePage#  25: finish 'clickMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  41: start 'setLogin'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  42: Login:yurii.kaprov@gmail.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  44: finish 'setLogin'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  49: start 'clickNext'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  51: finish 'clickNext'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  56: start 'setPassword'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  61: finish 'setPassword'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  66: start 'signInBtn'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   LoginPage#  73: finish 'signInBtn'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ WARN  ScreenShot#  42: <a href='screenshots/screenshot2240329760345579849.png'>See ScreenShot</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  56: finish 'gmailLogin'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  77: start 'discardDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 162: start 'discardDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 168: finish 'discardDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  80: finish 'discardDrafts'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest# 101: start 'discardMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 172: start 'discardSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 185: finish 'discardSentMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest# 104: finish 'discardMails'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest# 109: start 'logOut'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 189: start 'logOut'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO    MainPage# 193: finish 'logOut'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ INFO   GmailTest# 111: finish 'logOut'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ WARN   GmailTest# 142: start 'closeBrowser'<br>]]>
+    </line>
+    <line>
+      <![CDATA[ WARN   GmailTest# 144: finish 'closeBrowser'<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Reporting suite" duration-ms="35201" started-at="2016-07-21T09:57:33Z" finished-at="2016-07-21T09:58:09Z">
+    <groups>
+    </groups>
+    <test name="Gmail test" duration-ms="35201" started-at="2016-07-21T09:57:33Z" finished-at="2016-07-21T09:58:09Z">
+      <class name="com.epam.yuri_karpov.selenium.GmailTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="startBrowser" is-config="true" duration-ms="2816" started-at="2016-07-21T13:57:33Z" finished-at="2016-07-21T13:57:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ WARN   GmailTest#  41: start 'startBrowser'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ WARN   GmailTest#  42: startBrowser 'delete old screenshots'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ WARN   GmailTest#  46: finish 'startBrowser'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="gmailLogin()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailLogin" duration-ms="7465" started-at="2016-07-21T13:57:36Z" finished-at="2016-07-21T13:57:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  51: start 'gmailLogin'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO  GooglePage#  23: start 'clickMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO  GooglePage#  25: finish 'clickMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  41: start 'setLogin'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  42: Login:yurii.kaprov@gmail.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  44: finish 'setLogin'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  49: start 'clickNext'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  51: finish 'clickNext'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  56: start 'setPassword'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  61: finish 'setPassword'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  66: start 'signInBtn'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   LoginPage#  73: finish 'signInBtn'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ WARN  ScreenShot#  42: <a href='screenshots/screenshot2240329760345579849.png'>See ScreenShot</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  56: finish 'gmailLogin'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method status="PASS" signature="gmailDraftsGenerator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsGenerator" duration-ms="5699" started-at="2016-07-21T13:57:44Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailLogin" finished-at="2016-07-21T13:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsGenerator -->
+        <test-method status="PASS" signature="gmailDraftsGenerator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsGenerator" duration-ms="3733" started-at="2016-07-21T13:57:49Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailLogin" finished-at="2016-07-21T13:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How about test?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[How are you?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsGenerator -->
+        <test-method status="PASS" signature="gmailDraftsGenerator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsGenerator" duration-ms="3889" started-at="2016-07-21T13:57:53Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailLogin" finished-at="2016-07-21T13:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test me!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[I want to test you!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  61: start 'gmailDraftsGenerator'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  96: start 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage#  97: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 110: finish 'composeMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  64: finish 'gmailDraftsGenerator'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsGenerator -->
+        <test-method status="PASS" signature="gmailDraftsCheck(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsCheck" duration-ms="2006" started-at="2016-07-21T13:57:57Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator" finished-at="2016-07-21T13:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsCheck -->
+        <test-method status="PASS" signature="gmailDraftsCheck(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsCheck" duration-ms="621" started-at="2016-07-21T13:57:59Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator" finished-at="2016-07-21T13:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How about test?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[How are you?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsCheck -->
+        <test-method status="PASS" signature="gmailDraftsCheck(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailDraftsCheck" duration-ms="573" started-at="2016-07-21T13:58:00Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsGenerator" finished-at="2016-07-21T13:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test me!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[I want to test you!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  69: start 'gmailDraftsCheck'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 131: start 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 141: finish 'checkDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  72: finish 'gmailDraftsCheck'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailDraftsCheck -->
+        <test-method status="PASS" signature="discardDrafts()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="discardDrafts" duration-ms="790" started-at="2016-07-21T13:58:00Z" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailDraftsCheck" finished-at="2016-07-21T13:58:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  77: start 'discardDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 162: start 'discardDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 168: finish 'discardDrafts'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  80: finish 'discardDrafts'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- discardDrafts -->
+        <test-method status="PASS" signature="gmailsSendMsgs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailsSendMsgs" duration-ms="1241" started-at="2016-07-21T13:58:01Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.discardDrafts" finished-at="2016-07-21T13:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Selenium test,text=Hello World!]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailsSendMsgs -->
+        <test-method status="PASS" signature="gmailsSendMsgs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailsSendMsgs" duration-ms="1256" started-at="2016-07-21T13:58:02Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.discardDrafts" finished-at="2016-07-21T13:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How about test?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[How are you?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=How about test?,text=How are you?]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailsSendMsgs -->
+        <test-method status="PASS" signature="gmailsSendMsgs(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="gmailsSendMsgs" duration-ms="1647" started-at="2016-07-21T13:58:03Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.discardDrafts" finished-at="2016-07-21T13:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test me!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[I want to test you!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  85: start 'gmailsSendMsgs'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 114: start 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 117: Letter[to=rzn.test@mail.ru,subj=Test me!,text=I want to test you!]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 127: finish 'composeAndSendMsg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  88: finish 'gmailsSendMsgs'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gmailsSendMsgs -->
+        <test-method status="PASS" signature="checkSentMails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="checkSentMails" duration-ms="1120" started-at="2016-07-21T13:58:05Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs" finished-at="2016-07-21T13:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello World!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSentMails -->
+        <test-method status="PASS" signature="checkSentMails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="checkSentMails" duration-ms="503" started-at="2016-07-21T13:58:06Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs" finished-at="2016-07-21T13:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[How about test?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[How are you?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSentMails -->
+        <test-method status="PASS" signature="checkSentMails(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="checkSentMails" duration-ms="485" started-at="2016-07-21T13:58:07Z" data-provider="mailData" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.gmailsSendMsgs" finished-at="2016-07-21T13:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rzn.test@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test me!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[I want to test you!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest#  93: start 'checkSentMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 149: start 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 158: finish 'checkSentMail'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest#  96: finish 'checkSentMails'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSentMails -->
+        <test-method status="PASS" signature="discardMails()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="discardMails" duration-ms="562" started-at="2016-07-21T13:58:07Z" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.checkSentMails" finished-at="2016-07-21T13:58:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest# 101: start 'discardMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 172: start 'discardSentMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 185: finish 'discardSentMails'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest# 104: finish 'discardMails'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- discardMails -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="logOut" duration-ms="358" started-at="2016-07-21T13:58:08Z" depends-on-methods="com.epam.yuri_karpov.selenium.GmailTest.discardMails" finished-at="2016-07-21T13:58:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ INFO   GmailTest# 109: start 'logOut'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 189: start 'logOut'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO    MainPage# 193: finish 'logOut'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ INFO   GmailTest# 111: finish 'logOut'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.epam.yuri_karpov.selenium.GmailTest@58714e00]" name="closeBrowser" is-config="true" duration-ms="416" started-at="2016-07-21T13:58:08Z" finished-at="2016-07-21T13:58:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ WARN   GmailTest# 142: start 'closeBrowser'<br>]]>
+            </line>
+            <line>
+              <![CDATA[ WARN   GmailTest# 144: finish 'closeBrowser'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.epam.yuri_karpov.selenium.GmailTest -->
+    </test> <!-- Gmail test -->
+  </suite> <!-- Reporting suite -->
+</testng-results>
