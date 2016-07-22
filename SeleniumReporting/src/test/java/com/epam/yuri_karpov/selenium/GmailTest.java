@@ -32,7 +32,7 @@ public class GmailTest {
 	private WebDriver driver;
 
 	private Account account;
-	ResourceBundle resource = ResourceBundle.getBundle("config");
+	ResourceBundle resource = ResourceBundle.getBundle("com.epam.yuri_karpov.selenium.properties.config");
 	private Object[][] data = new Object[3][3];
 	private MailService mailService;
 
