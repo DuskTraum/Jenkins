@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ResourceBundle;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
