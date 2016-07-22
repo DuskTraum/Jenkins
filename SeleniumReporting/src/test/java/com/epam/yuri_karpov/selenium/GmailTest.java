@@ -32,7 +32,6 @@ public class GmailTest {
 	private WebDriver driver;
 
 	private Account account;
-	ResourceBundle resource = ResourceBundle.getBundle("com.epam.yuri_karpov.selenium.properties.config");
 	private Object[][] data = new Object[3][3];
 	private MailService mailService;
 
@@ -50,7 +49,7 @@ public class GmailTest {
 	public void gmailLogin() {
 		LOG.info("start 'gmailLogin'");
 		account = new Account("yurii.kaprov@gmail.com", "151611eB0");
-		driver.get(resource.getString("mainURL"));
+		driver.get("https://www.google.ru/");
 		mailService.loginToMail(account);
 		ScreenShot.make(driver);
 		LOG.info("finish 'gmailLogin'");
