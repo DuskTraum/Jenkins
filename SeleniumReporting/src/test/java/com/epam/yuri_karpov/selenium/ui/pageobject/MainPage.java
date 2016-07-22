@@ -61,7 +61,7 @@ public class MainPage {
 	@FindBy(xpath = "//a[contains(text(), 'Sign out')]")
 	private WebElement signOutBtn;
 
-	@FindBy(xpath = "//div[contains(@data-tooltip,'Send ‪(Ctrl-Enter)‬')]")
+	@FindBy(xpath = "//div[contains(@data-tooltip,'Send(Ctrl-Enter)‬')]")
 	private WebElement sendMsg;
 
 	@FindBy(xpath = "//span[contains(text(), 'View message')]")
