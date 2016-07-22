@@ -64,7 +64,7 @@ public class MainPage {
 	@FindBy(xpath = "//span[contains(text(), 'View message')]")
 	private WebElement sendMsgconfirm;
 	
-	@FindBy (xpath = "//div[contains(@data-tooltip, 'Send(Ctrl-Enter)')]")
+	@FindBy (xpath = "//div[contains(text(), 'Send')]")
 	private WebElement sendMsg;
 
 	@FindBy(xpath = "//div[@aria-label = 'Back to Sent Mail']")
