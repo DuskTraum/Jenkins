@@ -33,11 +33,15 @@ public class GmailTest {
 	private Account account;
 	private Object[][] data = new Object[3][3];
 	private MailService mailService;
-	private static final String JENKINS_BUILD_URL = System.getProperty("test.version");
+	
+	
+	
+	
 	
 	
 	@BeforeTest
 	public void startBrowser() {
+		String JENKINS_BUILD_URL = System.getProperty("test.version");
 		System.out.println(JENKINS_BUILD_URL);
 		LOG.warn("start 'startBrowser'");
 		LOG.warn("startBrowser 'delete old screenshots'");
