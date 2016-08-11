@@ -33,7 +33,7 @@ public class GmailTest {
 	private Account account;
 	private Object[][] data = new Object[3][3];
 	private MailService mailService;
-	private static final String JENKINS_BUILD_URL = System.getProperty("jenkins.buildUrl");
+	private static final String JENKINS_BUILD_URL = System.getProperty("jenkins.buildNumber");
 	
 	
 	@BeforeTest
