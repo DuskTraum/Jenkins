@@ -4,8 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -37,12 +39,22 @@ public class GmailTest {
 	
 	
 	
-	
+	private void getProperties(){
+		Properties mavenProps = new Properties();
+		InputStream in = GmailTest.class.getResourceAsStream("/maven.properties");
+		try {
+			mavenProps.load(in);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String myVar = mavenProps.getProperty("test.version");
+		System.out.println(myVar);
+	}
 	
 	@BeforeTest
 	public void startBrowser() {
-		String JENKINS_BUILD_URL = System.getProperty("test.version");
-		System.out.println(JENKINS_BUILD_URL);
+		getProperties();		
 		LOG.warn("start 'startBrowser'");
 		LOG.warn("startBrowser 'delete old screenshots'");
 		ScreenShot.deleteAllScreenShots();
