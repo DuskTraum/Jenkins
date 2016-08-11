@@ -5,13 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.epam.yuri_karpov.selenium</groupId>
 	<artifactId>SeleniumReporting</artifactId>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<build.manifest.section>Build Details</build.manifest.section>
-		<build.unknown>UNKNOWN</build.unknown>
-		<build.number>${build.unknown}</build.number>
-		<build.revision>${build.unknown}</build.revision>
-	</properties>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
@@ -68,38 +62,16 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.11</version>
 				<configuration>
+					<environmentVariables>
+						<jenkins.buildUrl>${env.BUILD_URL}</jenkins.buildUrl>
+					</environmentVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-						</manifest>
-						<manifestEntries>
-							<Build-Time>${maven.build.timestamp}</Build-Time>
-						</manifestEntries>
-						<manifestSections>
-							<manifestSection>
-								<name>${build.manifest.section}</name>
-								<manifestEntries>
-									<Implementation-Title>${project.name}</Implementation-Title>
-									<Implementation-Version>${project.version}</Implementation-Version>
-									<Implementation-Build-Number>${build.number}</Implementation-Build-Number>
-									<Implementation-SCM-Revision>${build.revision}</Implementation-SCM-Revision>
-								</manifestEntries>
-							</manifestSection>
-						</manifestSections>
-					</archive>
-				</configuration>
-			</plugin>
+
 		</plugins>
 	</build>
-	<version>0.0.1-SNAPSHOT</version>
+
 </project>
