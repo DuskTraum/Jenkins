@@ -11,7 +11,7 @@ public class GooglePage {
 	private WebDriver driver;
 	private static final Logger LOG = Logger.getLogger(GooglePage.class);
 	
-	@FindBy (xpath = "//*[@href='https://mail.google.com/mail/?tab=wm' and contains(text(),'РџРѕС‡С‚Р°')]")
+	@FindBy (xpath = "//*[@href='https://mail.google.com/mail/?tab=wm' and contains(text(),'Почта')]")
 	private WebElement mailBtn;
 	
 	public GooglePage(WebDriver driver){

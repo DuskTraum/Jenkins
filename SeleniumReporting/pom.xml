@@ -6,7 +6,10 @@
 	<groupId>com.epam.yuri_karpov.selenium</groupId>
 	<artifactId>SeleniumReporting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -63,7 +66,7 @@
 				<version>2.11</version>
 				<configuration>
 					<environmentVariables>
-						<jenkins.buildUrl>${env.BUILD_URL}</jenkins.buildUrl>
+						<jenkins.buildNumber>${env.BUILD_NUMBER}</jenkins.buildNumber>
 					</environmentVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
