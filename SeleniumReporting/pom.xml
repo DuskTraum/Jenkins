@@ -5,7 +5,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.epam.yuri_karpov.selenium</groupId>
 	<artifactId>SeleniumReporting</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<build.manifest.section>Build Details</build.manifest.section>
@@ -102,4 +101,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<version>0.0.1-SNAPSHOT</version>
 </project>
