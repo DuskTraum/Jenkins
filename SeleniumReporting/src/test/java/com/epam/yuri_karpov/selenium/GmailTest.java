@@ -54,7 +54,9 @@ public class GmailTest {
 	
 	@BeforeTest
 	public void startBrowser() {
-		getProperties();		
+
+		String property = System.getProperty("test.version");
+		System.out.println("property = " + property);
 		LOG.warn("start 'startBrowser'");
 		LOG.warn("startBrowser 'delete old screenshots'");
 		ScreenShot.deleteAllScreenShots();
