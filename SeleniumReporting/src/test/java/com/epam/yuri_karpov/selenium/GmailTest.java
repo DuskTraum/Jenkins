@@ -4,10 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -36,25 +34,9 @@ public class GmailTest {
 	private Object[][] data = new Object[3][3];
 	private MailService mailService;
 	
-	
-	
-	
-	private void getProperties(){
-		Properties mavenProps = new Properties();
-		InputStream in = GmailTest.class.getResourceAsStream("/maven.properties");
-		try {
-			mavenProps.load(in);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		String myVar = mavenProps.getProperty("test.version");
-		System.out.println(myVar);
-	}
-	
+
 	@BeforeTest
 	public void startBrowser() {
-
 		String property = System.getProperty("test.version");
 		System.out.println("property = " + property);
 		LOG.warn("start 'startBrowser'");
